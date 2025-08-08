@@ -1,0 +1,15 @@
+meta {
+  name: Eliminar Estudiante
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:8000/estudiante/45
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

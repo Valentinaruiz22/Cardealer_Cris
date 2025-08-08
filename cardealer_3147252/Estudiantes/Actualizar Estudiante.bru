@@ -1,0 +1,15 @@
+meta {
+  name: Actualizar Estudiante
+  type: http
+  seq: 3
+}
+
+patch {
+  url: http://localhost:8000/estudiante/45
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

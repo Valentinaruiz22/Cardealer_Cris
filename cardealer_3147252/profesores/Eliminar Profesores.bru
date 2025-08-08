@@ -1,0 +1,15 @@
+meta {
+  name: Eliminar Profesores
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:8000/profesor/45
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

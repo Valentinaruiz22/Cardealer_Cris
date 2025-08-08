@@ -1,0 +1,15 @@
+meta {
+  name: Consultar Carro
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8000/cars
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
