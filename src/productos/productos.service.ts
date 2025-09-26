@@ -8,21 +8,25 @@ import { PrismaService } from 'src/prisma/prisma.service';
 @Injectable()
 export class ProductosService {
 
-constructor(private servicio: PrismaService){}  
+constructor(private PrismaService: PrismaService){}  
 
   
-  create(createProductoDto: CreateProductoDto) {
-    return 'This action adds a new producto';
+  create(ProductoDto: CreateProductoDto) {
+   return this.PrismaService.productos.create({
+    data:{
+      nombre: ProductoDto.nombre,
+      precio: ProductoDto.precio
+    }
+   })
   }
 
   findAll() {
-    return this.servicio.productos.findMany()
+
   }
 
   findOne(id: number) {
 
-    return this.servicio.productos.findFirst({})
-
+   
    
   }
 

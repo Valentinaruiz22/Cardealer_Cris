@@ -132,7 +132,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\Aprendiz\\Desktop\\cardealer\\generated\\prisma",
+      "value": "C:\\Users\\Aprendiz\\Cardealer_Cris\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -146,12 +146,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\Aprendiz\\Desktop\\cardealer\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\Aprendiz\\Cardealer_Cris\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../prisma",
   "clientVersion": "6.15.0",
@@ -160,7 +159,6 @@ const config = {
     "db"
   ],
   "activeProvider": "sqlite",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
